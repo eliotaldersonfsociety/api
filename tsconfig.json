@@ -5,7 +5,7 @@
     "target": "ESNext",
     "module": "ESNext",
     "outDir": "./dist",
-    "rootDir": "./src",
+    "rootDir": "./",
     "moduleDetection": "force",
     "jsx": "react-jsx",
     "allowJs": true,
