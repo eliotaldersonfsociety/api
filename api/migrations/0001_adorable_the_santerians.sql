@@ -1,1 +1,0 @@
-ALTER TABLE `users` ADD `saldo` integer DEFAULT 0 NOT NULL;
