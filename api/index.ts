@@ -1,12 +1,12 @@
 import { Hono } from 'hono'
 import { handle } from 'hono/vercel'
-import authRouter from 'routes/auth.route'
-import { postRouter } from 'routes/post.route'
+import authRouter from './routes/auth.route'
+import { postRouter } from './routes/post.route'
 import { cors } from 'hono/cors'
-import { userRouter } from 'routes/user.route'
-import helloRouter from 'routes/hello.route'
+import { userRouter } from './routes/user.route'
+import helloRouter from './routes/hello.route'
 import type { JwtVariables } from 'hono/jwt'
-import actualizarRouter from 'routes/actualizar.route'
+import actualizarRouter from './routes/actualizar.route'
 
 type Variables = JwtVariables
 
