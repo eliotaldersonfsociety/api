@@ -1,9 +1,22 @@
-"dependencies": {
-  "hono": "^3.0.0",
-  "hono/jwt": "^3.0.0",
-  "@hono/zod-validator": "^0.4.2",
-  "@libsql/client": "^0.14.0",
-  "drizzle-kit": "^0.30.4",
-  "drizzle-orm": "^0.39.1",
-  "zod": "^3.24.1"
+{
+  "name": "api",
+  "scripts": {
+    "dev": "bun --watch api/index.ts",
+    "build": "vercel build"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "hono": "^3.0.0",
+    "hono/jwt": "^3.0.0",
+    "@hono/zod-validator": "^0.4.2",
+    "@libsql/client": "^0.14.0",
+    "drizzle-kit": "^0.30.4",
+    "drizzle-orm": "^0.39.1",
+    "zod": "^3.24.1"
+  }
 }
